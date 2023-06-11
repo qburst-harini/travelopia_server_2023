@@ -2,6 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 
+import logger from "./src/logger.js";
+
 dotenv.config();
 
 const server = express();
@@ -22,5 +24,5 @@ server.get("/", (req, res) =>
 );
 
 server.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+  logger.info(`Server is listening on port ${PORT}`);
 });
