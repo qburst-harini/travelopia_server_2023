@@ -10,6 +10,6 @@ const schemaObj = new mongoose.Schema(
   },
   { versionKey: false }
 );
-const UserModel = mongoose.model('users', schemaObj);
+const TravellerModel = mongoose.model("travellers", schemaObj);
 
-export default UserModel;
+export default TravellerModel;
