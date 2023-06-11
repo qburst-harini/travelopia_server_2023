@@ -1,0 +1,17 @@
+{
+  "name": "travelopia_api_2023",
+  "version": "1.0.0",
+  "description": "travelopia api's",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harini",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  }
+}
